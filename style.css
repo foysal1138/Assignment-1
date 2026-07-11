@@ -3,6 +3,7 @@
     padding:0;
     font-family: Arial, sans-serif;
 }
+
 nav{
     display: flex;
     height:65px;
@@ -36,8 +37,8 @@ header ul a{
 header ul a:hover{
     color: aqua;
 }
-                      /* Main Design */
-/* section-1  */
+                                               /* Main Design */
+/*            section-1                 */
 .section-1{
     
     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
@@ -74,4 +75,35 @@ header ul a:hover{
 }
 .cmn-btn:hover{
     background-color: orangered;
+}
+
+/*            Section-2           */
+.section-2{
+
+}
+.section-2 h1{
+    text-align: center;
+    margin: 50px;
+}
+.section-2 .section-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:25px;
+    justify-content: center;
+  
+   
+    
+    
+    
+}
+
+.speaker-color{
+    color:#2563EB;
+}
+.section-content .speaker {
+   border-radius: 20px;
+}
+.section-content .speaker div{
+    
 }
