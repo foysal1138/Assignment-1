@@ -41,9 +41,9 @@ header ul a:hover{
 /*            section-1                 */
 .section-1{
     
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
      url("./assets/banner.jpg");
-    height: 500px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -189,8 +189,77 @@ header ul a:hover{
     background-color: #0D1B2A;
     color: white;
 }
+
+/* Footer Part */
 footer{
-    height: 200px;
-    width: 100%;
     background-color: #575757;
 }
+footer .foot-first{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 200px;
+    width: 100%;
+    
+}
+footer  #foot-img img{
+    height: 40px;
+    width: 100px;
+   text-align: left;
+   align-items: center;
+   justify-content: center;
+   margin: 80px 20px;
+   
+  
+ 
+}
+.foot-first .social-media{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px;
+    margin: 50px 20px;
+  
+    
+
+    
+    
+}
+.foot-first .social-media li{
+    
+    list-style: none;
+    
+    text-align: center;
+    padding: 0 2px;
+}
+.social-media li a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    
+}
+.social-media li a:hover{
+    color: aquamarine;
+}
+.social-media li img{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 20px;
+}
+.social-media h2{
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin: 10px;
+    padding: 10px;
+}
+footer hr{
+    opacity: 0.5;
+    height: 1px;
+    width: 100%;
+   
+}
+
