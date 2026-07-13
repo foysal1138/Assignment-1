@@ -190,6 +190,96 @@ header ul a:hover{
     color: white;
 }
 
+/* -------------CountDown Timer -------------------- */
+/* Countdown Section */
+
+.countdown{
+    background:#f5f7fa;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.countdown h2{
+    font-size:40px;
+    color:#1b1b1b;
+    margin-bottom:10px;
+}
+
+.countdown p{
+    color:#666;
+    margin-bottom:50px;
+}
+
+/* Timer */
+
+.timer{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+/* Individual Box */
+
+.time-box{
+
+    width:140px;
+    height:140px;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    transition:.3s;
+}
+
+/* Hover Effect */
+
+.time-box:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 30px rgba(0,0,0,.15);
+
+}
+
+/* Number */
+
+.time-box span{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+    color:#0077ff;
+
+}
+
+/* Text */
+
+.time-box small{
+
+    margin-top:10px;
+
+    font-size:18px;
+
+    color:#555;
+
+    letter-spacing:1px;
+
+}
+
 /* Footer Part */
 footer{
     background-color: #575757;
@@ -199,62 +289,67 @@ footer .foot-first{
     grid-template-columns: repeat(2,1fr);
     height: 200px;
     width: 100%;
+    margin: 0;
+    padding: 0;
     
 }
-footer  #foot-img img{
-    height: 40px;
-    width: 100px;
-   text-align: left;
-   align-items: center;
-   justify-content: center;
-   margin: 80px 20px;
-   
-  
- 
+.foot-img img{
+    margin:20px 0 0 20px;
 }
-.foot-first .social-media{
-    
+.foot-img .foot-txt{
+    margin-top: 15px;
+    color: #d9d9d9;
+    font-size: 15px;
+    line-height: 1.7;
+}
+/* Social Media Section */
+
+.social-media{
     display: flex;
     flex-direction: column;
-    margin: 80px 20px;
-    margin: 50px 20px;
-  
-    
-
-    
-    
-}
-.foot-first .social-media li{
-    
-    list-style: none;
-    
-    text-align: center;
-    padding: 0 2px;
-}
-.social-media li a{
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    
-}
-.social-media li a:hover{
-    color: aquamarine;
-}
-.social-media li img{
-    height: 20px;
-    width: 20px;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin: 10px 0 0 20px;
 }
+
 .social-media h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-media ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li{
+    display: flex;
+    align-items: center;   /* Vertical center */
+    gap: 12px;             /* Space between icon and text */
+    margin-bottom: 15px;
+}
+
+.social-media li img{
+    width: 22px;
+    height: 22px;
+    margin: 0;             /* Remove previous margins */
+    display: block;
+}
+
+.social-media li a{
+    text-decoration: none;
     color: white;
-    text-align: center;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.social-media li a:hover{
+    color: aquamarine;
 }
 footer p{
     margin: 10px;
     padding: 10px;
+    color: white;
 }
 footer hr{
     opacity: 0.5;
